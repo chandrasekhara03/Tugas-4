@@ -1,0 +1,77 @@
+/* Latar belakang halaman */
+body {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Container utama */
+#form-container {
+    max-width: 400px;
+    background: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Input dan Select */
+input, select {
+    margin: 12px 0;
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: 0.3s ease-in-out;
+}
+
+/* Efek saat input atau select diklik */
+input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #ffffff;
+}
+
+/* Tombol */
+button {
+    margin: 12px 0;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Warna tombol utama */
+#submitInitial, #submitChoices, #submitSelection {
+    background-color: #007bff;
+    color: white;
+}
+
+#submitInitial:hover, #submitChoices:hover, #submitSelection:hover {
+    background-color: #0056b3;
+}
+
+/* Warna tombol tambahan */
+#extraButton1, #extraButton2 {
+    background-color: #28a745;
+    color: white;
+}
+
+#extraButton1:hover, #extraButton2:hover {
+    background-color: #1e7e34;
+}
+
+/* Pesan error */
+#error-msg {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
